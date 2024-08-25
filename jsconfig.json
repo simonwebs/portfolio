@@ -1,0 +1,89 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/local_collection_driver.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/collection.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/connection_options.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/doc_fetcher.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/mongo_driver.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/mongo_utils.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/observe_multiplex.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/oplog_observe_driver.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/oplog_tailing.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/oplog_v2_converter.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/polling_observe_driver.js",
+        "/home/simonagbey/.meteor/packages/mongo/2.0.1/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/simonagbey/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/simonagbey/.meteor/packages/es5-shim/4.8.1/web.browser/client.js",
+        "/home/simonagbey/.meteor/packages/es5-shim/4.8.1/web.browser/console.js",
+        "/home/simonagbey/.meteor/packages/es5-shim/4.8.1/web.browser/cordova.js",
+        "/home/simonagbey/.meteor/packages/es5-shim/4.8.1/web.browser/export_globals.js",
+        "/home/simonagbey/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/simonagbey/.meteor/packages/ecmascript/0.16.9/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/simonagbey/.meteor/packages/shell-server/0.6.0/web.browser/main.js",
+        "/home/simonagbey/.meteor/packages/shell-server/0.6.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/simonagbey/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
+        "/home/simonagbey/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
+        "/home/simonagbey/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/home/simonagbey/.meteor/packages/react-meteor-data/3.0.1/web.browser/index.js",
+        "/home/simonagbey/.meteor/packages/react-meteor-data/3.0.1/web.browser/suspense/index.js"
+      ],
+      "meteor/quave:collections": [
+        "/home/simonagbey/.meteor/packages/quave_collections/2.0.1/web.browser/collections.js",
+        "/home/simonagbey/.meteor/packages/quave_collections/2.0.1/web.browser/helpers.js",
+        "/home/simonagbey/.meteor/packages/quave_collections/2.0.1/web.browser/prettier.config.js",
+        "/home/simonagbey/.meteor/packages/quave_collections/2.0.1/web.browser/schema.js"
+      ],
+      "meteor/email": [
+        "/home/simonagbey/.meteor/packages/email/3.0.100/web.browser/email.js"
+      ],
+      "meteor/minimongo": [
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/minimongo_client.js",
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/common.js",
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/constants.js",
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/cursor.js",
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/local_collection.js",
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/matcher.js",
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/minimongo_common.js",
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/minimongo_server.js",
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/observe_handle.js",
+        "/home/simonagbey/.meteor/packages/minimongo/2.0.1/web.browser/sorter.js"
+      ],
+      "meteor/webapp": [
+        "/home/simonagbey/.meteor/packages/webapp/2.0.1/web.browser/webapp_client.js",
+        "/home/simonagbey/.meteor/packages/webapp/2.0.1/web.browser/socket_file.js",
+        "/home/simonagbey/.meteor/packages/webapp/2.0.1/web.browser/webapp_cordova.js",
+        "/home/simonagbey/.meteor/packages/webapp/2.0.1/web.browser/webapp_server.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Simon Agbey",
+  "display": "standalone",
+  "scope": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1C8FFF",
+  "icons": [
+    {
+      "src": "https://simonwebs.github.io/images/simon-agbey.jpeg",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ]
+}
